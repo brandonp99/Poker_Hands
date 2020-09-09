@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Poker Hands{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% block body %}
+        <h1>The Following shows the clear winner in this game of Texas Hold'em</h1>
+    </br>
+</br>
+<h3>please upload text file</h3>
+</br>
+</br>
+{{form_start(form)}}
+{{form_row(form.hands)}}
+{{form_end(form)}}
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

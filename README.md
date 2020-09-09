@@ -8,8 +8,8 @@ Steps to set up project
 4.  access database via an SQL workbench using "127.0.0.1" as the host, "root" for the username, and "root" for the password
 5.  create a new Database named "pokerhands"
 6.  import pokerhands_2020-09-08.sql from the /sql_dump folder
-7.  check that composer is installed using "composer -v" if not, download and follow the steps to install composer from here "https://getcomposer.org/download/"
-7.  cd into the project file you cloned earlier and run "symfony start:server"
-8.  Once the server is started move to your browser and load your localhost on http://127.0.0.1:8000
-9.  login using "root@local.local" for the email and "root" for the password
-10.  upload the txt file and view the answers given
+7.  cd into the project file you cloned earlier and run "composer install" to install any needed dependencies
+8.  run "symfony start:server" to spin up the server
+9.  Once the server is started move to your browser and load your localhost on http://127.0.0.1:8000
+10.  login using "root@local.local" for the email and "root" for the password
+11.  upload the txt file and view the answers given
